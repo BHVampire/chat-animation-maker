@@ -3,6 +3,7 @@ const id = 'd560d55a-7838-40fe-94bd-e74bcb2c32e7'
 const firstUser = 'Jenell'
 const secondUser = 'Horst'
 const defaultWordsPerMinute = 238
+const acceleratedWordsPerMinute = 238
 
 
 //Code
@@ -43,7 +44,7 @@ const endMessage = () => {
 }
 
 const completedOnce = () => {
-    return window.localStorage.setItem(id, '2000')
+    return window.localStorage.setItem(id, acceleratedWordsPerMinute)
 }
 
 const pendingMessage = () => {
